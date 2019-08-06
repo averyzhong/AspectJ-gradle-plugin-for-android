@@ -49,8 +49,8 @@ You can disable the WeaveLog file generation by adding the below code.
         ......
     }
     
-    aop {
-        generateWeaveLog = false
+    aspectj {
+        generateWeaveLog = true
     }
     
     dependencies {
