@@ -5,7 +5,7 @@ AspectJ-gradle-plugin-for-android is a gradle plugin that integrates AspectJ int
 As long as you use this plugin, your project will immediately have the capability of AOP(Aspect Oriented Programming).
 
 
-[ ![Download](https://api.bintray.com/packages/averyzhong/AndroidRepo/aop-gradle-plugin-for-android/images/download.svg?version=1.0.1) ](https://bintray.com/averyzhong/AndroidRepo/aop-gradle-plugin-for-android/1.0.1/link)
+[ ![Download](https://api.bintray.com/packages/averyzhong/AndroidRepo/AspectJ-gradle-plugin-for-android/images/download.svg?version=1.0.0) ](https://bintray.com/averyzhong/AndroidRepo/AspectJ-gradle-plugin-for-android/1.0.0/link)
 
 # How to use?
 1. Add `classpath 'com.avery.android.aspectj:aspectj-plugin:1.0.0'` to build.gradle in the project root directory
