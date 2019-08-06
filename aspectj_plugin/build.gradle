@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation localGroovy()
+    implementation gradleApi()
+    implementation "com.android.tools.build:gradle-api:$gradleVersion"
+    implementation "com.android.tools.build:gradle:$gradleVersion"
+    implementation "org.aspectj:aspectjtools:$aspectjVersion"
+    implementation "org.aspectj:aspectjrt:$aspectjVersion"
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"

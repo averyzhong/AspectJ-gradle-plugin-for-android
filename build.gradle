@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        // Sdk and tools
+        compileSdkVersion = 29
+        buildToolVersion = '29.0.0'
+        minSdkVersion = 15
+        targetSdkVersion = 29
+
+        gradleVersion = '3.4.2'
+        aspectjVersion = '1.8.6'
+        supportLibraryVersion = '1.0.2'
+        constraintLayoutVersion = '1.1.3'
+        androidMavenGradlePluginVersion = '2.1'
+        gradleBintrayPluginVersion = '1.7.3'
+    }
+
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath 'com.avery.android.aspectj:aspectj-plugin:1.0.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
