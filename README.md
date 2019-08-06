@@ -59,7 +59,7 @@ You can disable the WeaveLog file generation by adding the below code.
 ```
 
 # Example
-Let's print logs in each lifecycle method of MainActivity by using AOP.
+Let's print logs in each lifecycle method of MainActivity by using AspectJ.
 
 #### com.avery.android.aspectj.example.MainActivity
 
