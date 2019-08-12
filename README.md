@@ -50,7 +50,7 @@ You can disable the WeaveLog file generation by adding the below code.
     }
     
     aspectj {
-        generateWeaveLog = true
+        generateWeaveLog = false
     }
     
     dependencies {
