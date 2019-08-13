@@ -18,7 +18,7 @@ class AspectjPlugin implements Plugin<Project> {
         def isApp = project.plugins.withType(AppPlugin)
         def isLib = project.plugins.withType(LibraryPlugin)
         if (!isApp && !isLib) {
-            throw new IllegalArgumentException("'android' or 'android-library' plugin required.")
+            throw new IllegalArgumentException("android-application/android-library plugin required.")
         }
         def log = project.logger
         project.extensions.create(EXTENSION_NAME, AspectjExtension)
